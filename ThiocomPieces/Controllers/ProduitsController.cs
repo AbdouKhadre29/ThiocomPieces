@@ -37,6 +37,7 @@ namespace ThiocomPieces.Controllers
 
         public ActionResult Ajout()
         {
+            ViewBag.Title = "My View's Title";
             //_photoservice.
             return View(new ProduitAjoutModelView()
             {
@@ -48,6 +49,7 @@ namespace ThiocomPieces.Controllers
         [HttpPost]
         public ActionResult Ajout(ProduitAjoutModelView vm)
         {
+            ViewBag.Title = "My View's Title";
             bool iSAllGood = ModelState.IsValid;
             DateTime dateDeReference;
             if (!DateTime.TryParseExact(vm.DateReference, "dd/MM/yyyy", new CultureInfo("fr-FR"), DateTimeStyles.None, out dateDeReference))
