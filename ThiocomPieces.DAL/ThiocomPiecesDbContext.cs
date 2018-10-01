@@ -15,6 +15,6 @@ namespace ThiocomPieces.DAL
         public DbSet<RoleCustom> RolesCustom { get; set; }
         public DbSet<Utilisateur> Utilisateurs { get; set; }
         public DbSet<Adresse> Adresses { get; set; }
-        public ThiocomPiecesDbContext() : base("name=Test") { }
+        public ThiocomPiecesDbContext() : base("name=ThiocomDBString") { }
     }
 }
