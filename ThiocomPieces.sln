@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThiocomPieces.Tests", "Thio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThiocomPieces.BLL", "..\..\..\Desktop\ThiocomPiecesOld\ThiocomPieces.BLL\ThiocomPieces.BLL.csproj", "{C82E2DFE-0E96-4391-BB4F-6F813438ADBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThiocomPieces.DTO", "..\..\..\Desktop\ThiocomPiecesOld\ThiocomPieces.DTO\ThiocomPieces.DTO.csproj", "{1D35B59F-CB8F-4113-9343-8B8BFE90084E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C82E2DFE-0E96-4391-BB4F-6F813438ADBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C82E2DFE-0E96-4391-BB4F-6F813438ADBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C82E2DFE-0E96-4391-BB4F-6F813438ADBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D35B59F-CB8F-4113-9343-8B8BFE90084E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D35B59F-CB8F-4113-9343-8B8BFE90084E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D35B59F-CB8F-4113-9343-8B8BFE90084E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D35B59F-CB8F-4113-9343-8B8BFE90084E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
