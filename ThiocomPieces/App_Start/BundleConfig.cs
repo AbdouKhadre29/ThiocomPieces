@@ -32,7 +32,7 @@ namespace ThiocomPieces.App_Start
 
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap-js")
-                .Include("~/Scripts/jquery-3.2.1.js",
+                .Include("~/Scripts/jquery-3.3.1.js",
                          "~/Scripts/bootstrap.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryui-js")
