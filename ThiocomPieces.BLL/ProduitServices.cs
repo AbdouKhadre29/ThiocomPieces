@@ -16,7 +16,7 @@ namespace ThiocomPieces.BLL
         private ThiocomPiecesDbContext ctx = new ThiocomPiecesDbContext();
 
        
-        public int AjouteruuProduit(ProduitAjout produitAjoutDTO)
+        public int AjouterProduit(ProduitAjout produitAjoutDTO)
         {
             Produit produitEntite = ctx.Produits.Add(new Produit()
             {
@@ -25,7 +25,7 @@ namespace ThiocomPieces.BLL
                 DateReference= produitAjoutDTO.DateReference,
                 Description= produitAjoutDTO.Description,
                 Prix= produitAjoutDTO.Prix,
-                pixels= produitAjoutDTO.pixels
+                pixels= produitAjoutDTO.Pixels
             });
             ctx.SaveChanges();
             return produitEntite.ProduitID;

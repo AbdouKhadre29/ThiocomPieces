@@ -29,7 +29,7 @@ namespace ThiocomPieces.DTO
         public string Reference { get; set; }
         public string Description { get; set; }
         public double? Prix { get; set; }
-        public byte[] pixels { get; set; }
+        public byte[] Pixels { get; set; }
         public DateTime DateReference { get; set; }
        
     }
